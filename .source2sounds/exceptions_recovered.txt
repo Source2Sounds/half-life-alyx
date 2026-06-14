@@ -1,0 +1,8 @@
+---------------
+Parent file: /mnt/windows-drive/SteamLibrary/steamapps/common/Half-Life Alyx/game/hlvr/pak01_dir.vpk
+File: sounds/commentary/a3_02_liquid_bottles.vsnd_c
+Exception: System.IO.IOException: Input/output error : '/mnt/windows-drive/SteamLibrary/steamapps/common/Half-Life Alyx/game/hlvr/pak01_053.vpk'
+   at System.IO.Strategies.BufferedFileStreamStrategy.ReadSpan(Span`1 destination, ArraySegment`1 arraySegment)
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 141
+   at CLI.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/CLI/Decompiler.cs:line 1277
+
