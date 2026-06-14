@@ -1,0 +1,46 @@
+{
+  "cli": "Source2Viewer-CLI",
+  "collision_policy": "suffix",
+  "game": {
+    "description": "Half-Life: Alyx Sound Files",
+    "install_names": [
+      "Half-Life Alyx"
+    ],
+    "slug": "half-life-alyx",
+    "title": "Half-Life: Alyx"
+  },
+  "generated_at": "2026-06-14T01:29:56.763008+00:00",
+  "include_maps": true,
+  "install": {
+    "directory": "Half-Life Alyx",
+    "steam_common_folder": "<local Steam common folder>"
+  },
+  "notes": [
+    "Recovered sounds/commentary/a3_02_liquid_bottles.mp3 after retrying transient read error from pak01_053.vpk."
+  ],
+  "primary_only": true,
+  "totals": {
+    "collisions": 1,
+    "duplicates": 0,
+    "written": 18958
+  },
+  "vpks": [
+    {
+      "collisions": 0,
+      "duplicates": 0,
+      "path": "game/core/pak01_dir.vpk",
+      "returncode": 0,
+      "written": 36
+    },
+    {
+      "collisions": 1,
+      "duplicates": 0,
+      "path": "game/hlvr/pak01_dir.vpk",
+      "recovered_files": [
+        "sounds/commentary/a3_02_liquid_bottles.mp3"
+      ],
+      "returncode": 0,
+      "written": 18922
+    }
+  ]
+}
